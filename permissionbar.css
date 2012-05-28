@@ -1,0 +1,100 @@
+#permission-bar-prompt-content, #permission-bar{
+		color:white;
+		font-family: 'Open Sans', 'Lucida Grande', Arial, sans-serif;
+		font-weight:300;
+	}
+	#permission-bar-prompt-content a, #permission-bar a, #permission-bar-prompt-content span{
+		color: #31a8f0;
+		text-decoration:none;
+	}
+	#permission-bar-prompt-content a:hover, #permission-bar a:hover{
+		color: #31a8f0;
+		text-decoration:underline;
+	}
+	#permission-bar-prompt-close{
+		width:14px;
+		height:14px;
+		float:right;
+		display:block;
+		background:url(x.png) no-repeat;
+	}
+	#permission-bar-prompt-logo{
+		width:190px;
+		height:42px;
+		float:left;
+		display:block;
+		background:url(logo.png) no-repeat;
+	}
+	#permission-bar-prompt-close span, #permission-bar-prompt-logo span{
+		display: none;
+	}
+	#permission-bar{
+		position:fixed;
+		bottom:0px;
+		left: 0px;
+		width:100%;
+		margin:0;
+		padding:0;
+		height:31px;
+		padding-top:13px;
+		background:url(bar-bg.png) repeat-x;
+		z-index:9999;
+		font-size:14px;
+		line-height:20px;
+	}
+	#permission-bar p{
+		float:left;
+		padding:0;
+		margin:4px 0 0 20px;
+	}
+	#permission-bar-button{
+		float:right;
+		margin-right:20px;
+		background-color: #2daebf;
+		font-size:13px;
+		-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+		text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+		border-bottom: 1px solid rgba(0,0,0,0.25);
+		display: inline-block;
+		padding: 5px 10px 6px;
+		color: #fff!important;
+		text-decoration: none;
+		font-weight: bold;
+		line-height: 1;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		text-shadow: 0 -1px 1px #222;
+		border-bottom: 1px solid #222;
+		position: relative;
+		cursor: pointer;
+		margin-top:2px;
+	}
+	#permission-bar-prompt{
+		position: absolute;
+		width:100%;
+		height:100%;
+		top:0;
+		left:0;
+		z-index:9998;
+		background:url(prompt-bg.png);
+	}
+
+	#permission-bar-prompt-content{
+		position: absolute;
+		width:400px;
+		height:300px;
+		padding:25px;
+		background:black;
+		color:white;
+		opacity: 0.9;
+		-moz-opacity: 0.9;
+		z-index:9998;
+		-webkit-border-radius: 7px;
+		border-radius: 7px;
+		font-size:15px;
+	}
+
+	.clear{
+		clear:both;
+	}
