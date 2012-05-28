@@ -26,7 +26,7 @@ Once user clicks 'Allow Cookies' Permission Bar will set a cookie for that domai
 ## How to Install?
 
 1. Grab the Github repo and place it on the server in its own directory. All the files, including images and stylesheets, need to maintain it's relative structure - that is be in the same directory - for the plugin to work correctly. 
-2. Put the following code on the all relevant pages of your website right before the &lt;/body&gt; tag.:
+2. Put the following code on all relevant pages of your website right before the &lt;/body&gt; tag.:
 
 	<code>
 	&lt;script type="text/javascript" src="PATH-TO/permissionbar-latest.min.js"&gt;&lt;/script&gt;
