@@ -11,7 +11,7 @@ Permission Bar does just that, presenting users with clear information on whethe
 
 ## Important Legal Reading
 
-1. Information Commissioner's Office - Guidance on the rules on use of cookies and similar technologies (PDF)
+1. Information Commissioner's Office - [Guidance on the rules on use of cookies and similar technologies (PDF)](http://www.ico.gov.uk/news/latest_news/2011/~/media/documents/library/Privacy_and_electronic/Practical_application/guidance_on_the_new_cookies_regulations.ashx)
 
 ## How it works?
 
