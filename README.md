@@ -6,9 +6,9 @@ Permission Bar is a free & simple solution to the EU cookie law.
 
 ## Why use Permission Bar?
 
-Recent legislation requires websites to obtain explicit consent before leaving behind or reading files (mostly cookies) on user's computers. Website creators need to make the use of cookies on their websites very obvious to users.
+There is a lot of mystery and fuss surrounding the new EU cookie legislation, but it’s essentially really simple. Cookies are files used to track site activity and most websites use them. Site owners need to make the use of cookies very obvious to visitors.
 
-Permission Bar does just that, presenting users with clear information on whether cookies are present, and advising users on how to adjust browser settings and what cookies mean for them.
+Permission bar makes it simple and clear to visitors that cookies are in use and tells them how to adjust browser settings if they are concerned.
 
 
 ## Important Legal Reading
