@@ -1,6 +1,6 @@
 #permission-bar-prompt-content, #permission-bar{
 		color:white;
-		font-family: 'Open Sans', 'Lucida Grande', Arial, sans-serif;
+		font-family: 'Open Sans', 'Lucida Grande', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
 		font-weight:300;
 	}
 	#permission-bar-prompt-content a, #permission-bar a, #permission-bar-prompt-content span{
@@ -71,7 +71,7 @@
 		margin-top:2px;
 	}
 	#permission-bar-prompt{
-		position: absolute;
+		position: fixed;
 		width:100%;
 		height:100%;
 		top:0;
