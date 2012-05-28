@@ -32,3 +32,11 @@ Once user clicks 'Allow Cookies' Permission Bar will set a cookie for that domai
 	&lt;script type="text/javascript" src="PATH-TO/permissionbar-latest.min.js"&gt;&lt;/script&gt;
 	</code>
 	
+## Changelog
+
+### Version 0.1 
+
+	Initial version 
+	Date of Commit: 28.05.12
+	Code is of questionable quality, but it works.
+	
