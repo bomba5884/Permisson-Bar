@@ -29,6 +29,6 @@ Once user clicks 'Allow Cookies' Permission Bar will set a cookie for that domai
 2. Put the following code on the all relevant pages of your website right before the &lt;/body&gt; tag.:
 
 	<code>
-	&lt;script type="text/javascript" src="PATH-TO/	permissionbar.min.js"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript" src="PATH-TO/permissionbar-latest.min.js"&gt;&lt;/script&gt;
 	</code>
 	
