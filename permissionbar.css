@@ -1,6 +1,6 @@
 #permission-bar-prompt-content, #permission-bar{
 		color:white;
-		font-family: 'Open Sans', 'Lucida Grande', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+		font-family: 'Open Sans', 'Lucida Grande', Arial, sans-serif;
 		font-weight:300;
 	}
 	#permission-bar-prompt-content a, #permission-bar a, #permission-bar-prompt-content span{
@@ -50,7 +50,14 @@
 	#permission-bar-button{
 		float:right;
 		margin-right:20px;
-		background-color: #2daebf;
+		background: #2aa8e6; /* Old browsers */
+		background: -moz-linear-gradient(top, #2aa8e6 0%, #2084db 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2aa8e6), color-stop(100%,#2084db)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #2aa8e6 0%,#2084db 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #2aa8e6 0%,#2084db 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #2aa8e6 0%,#2084db 100%); /* IE10+ */
+		background: linear-gradient(top, #2aa8e6 0%,#2084db 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2aa8e6', endColorstr='#2084db',GradientType=0 ); /* IE6-9 */
 		font-size:13px;
 		-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
@@ -71,7 +78,7 @@
 		margin-top:2px;
 	}
 	#permission-bar-prompt{
-		position: fixed;
+		position: absolute;
 		width:100%;
 		height:100%;
 		top:0;
