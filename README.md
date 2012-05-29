@@ -34,7 +34,11 @@ Once user clicks 'Allow Cookies' Permission Bar will set a cookie for that domai
 	
 ## Changelog
 
-### Version 0.1 
+### Version 1.5 
+
+	Version 1.5
+	Date of Commit 28.05.12
+	Cleaned jQuery slightly, reduced script size. Changed CSS slightly.
 
 	Initial version 
 	Date of Commit: 28.05.12
