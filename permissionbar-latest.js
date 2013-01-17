@@ -10,7 +10,7 @@ function initPermBar() {
     if(typeof(jQuery) == 'undefined'){
 	  if(!jQload) {
 		  jQload= true;
-		  document.write(unescape('%3Cscript type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"%3E%3C/script%3E'));
+		  document.write(unescape('%3Cscript type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"%3E%3C/script%3E'));
 	  }
 	  setTimeout("initPermBar()", 50);
     }else{
